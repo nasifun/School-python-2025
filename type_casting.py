@@ -14,3 +14,21 @@ print(n * 3)
 #                    text to float
 
 
+s2 = '4.2'
+f2 = float(s2)
+print(f2 + 1.8)
+
+#                    Any to boolean
+
+
+for x in [0, 1, "", "hello", [], [5]]:
+    print(x, "→", bool(x))
+
+#                   example two again AI
+
+#                    1. String to text
+
+nunber = 7
+
+
+                     
