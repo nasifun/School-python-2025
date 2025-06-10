@@ -28,7 +28,26 @@ for x in [0, 1, "", "hello", [], [5]]:
 
 #                    1. String to text
 
-nunber = 7
+number = 7
+text = str(number)
+print('lucky number: ' + text)
+
+#                Text to integer
+
+s = '10'
+n = int(s)
+print(n * 3)
+
+#                   assignment
 
 
-                     
+price_str = '12.50'
+price_f   = float(price_str)       # 12.50 → 12.5
+tip       = price_f * 0.20         # 12.5 × 0.2 = 2.5
+
+print(f"Tip amount: ${tip:.2f}")    # Tip amount: $2.50
+
+total     = price_f + tip          # 12.5 + 2.5 = 15.0
+message   = "Total cost (with tip): $" + str(round(total, 2))
+print(message)                     # Total cost (with tip): $15.0
+
