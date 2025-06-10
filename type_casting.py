@@ -40,14 +40,13 @@ print(n * 3)
 
 #                   assignment
 
-
+#                  
 price_str = '12.50'
-price_f   = float(price_str)       # 12.50 → 12.5
-tip       = price_f * 0.20         # 12.5 × 0.2 = 2.5
+price_f = float(price_str)
+tip = price_f * 0.20
 
-print(f"Tip amount: ${tip:.2f}")    # Tip amount: $2.50
+print(f'tip amount: ${tip:.2f}')
+total = price_f + tip
+message = 'total cost (with tip): $' +str(round(total, 2))
 
-total     = price_f + tip          # 12.5 + 2.5 = 15.0
-message   = "Total cost (with tip): $" + str(round(total, 2))
-print(message)                     # Total cost (with tip): $15.0
-
+print (message)
