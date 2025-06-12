@@ -16,3 +16,10 @@ print(f"  Shipping fee:   ${ship_fee:.2f}")
 print(f"  TOTAL:          ${total:.2f}")
 if is_member:
     print("Thanks for being a member—enjoy the savings!")
+
+usd_amount   = float(input("Amount in USD: $"))
+rate         = float(input("Exchange rate (1 USD → EUR): "))
+
+eur_amount   = usd_amount * rate
+
+print(f"{usd_amount:.2f} USD is {eur_amount:.2f} EUR at rate {rate:.4f}")
