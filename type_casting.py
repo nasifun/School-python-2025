@@ -50,3 +50,28 @@ total = price_f + tip
 message = 'total cost (with tip): $' +str(round(total, 2))
 
 print (message)
+
+                         #lesson agin day 2 
+
+#  EXPLICIT TYPE CASTING 
+
+name = 'Nasif'	
+age = 36
+height = 5.9
+is_student = True
+
+age = float(age)
+print(age)
+
+height = int(height)
+print(height)
+
+is_student = str(is_student)
+print(is_student)
+
+#  IMPLICIT TYPE CASTING
+
+x = 5
+y = 2.5
+x = x + y  # x is implicitly converted to float
+print(x)
